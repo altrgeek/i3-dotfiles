@@ -1,0 +1,10 @@
+neww
+set -g status off
+send-keys '~/.ncmpcpp/cover.sh' C-m
+split-window -h
+resize-pane -t 35 -x 56
+select-pane -t 1
+send-keys 'ncmpcpp' C-m
+
+
+#urxvt -hold -g 92x10 -e bash -c "ncmpcpp -c ~/.ncmpcpp/config-art"
